@@ -85,7 +85,7 @@ body::-webkit-scrollbar-thumb {
 }
 .bannerI1Link{
     text-decoration: none;
-    color: #3F2A2D;
+    color: white;
 }
 .ImageOverText{
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Solway&display=swap');
@@ -98,14 +98,14 @@ body::-webkit-scrollbar-thumb {
     font-size: 300%;
 }
 .ImageOverText > button{
-    background-color: #3F2A2D;
-    color: white;
+    background-color: white;
+    color: black;
     border: none;
     padding: 1%;
     margin-top: 2%;
 }
 .ImageOverText > button:hover{
-    background-color: #5f3239;
+    background-color: white;
     
 }
 #buttFromInstagram{

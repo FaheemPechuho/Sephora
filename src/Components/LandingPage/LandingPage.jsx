@@ -12,6 +12,11 @@ import bfi1 from './Images/buttfrominsta/bfi1.webp';
 import bfi2 from './Images/buttfrominsta/bfi2.webp';
 import bfi3 from './Images/buttfrominsta/bfi3.webp';
 import bfi4 from './Images/buttfrominsta/bfi4.webp';
+import bfi5 from './Images/buttfrominsta/bfi5.webp';
+import bfi6 from './Images/buttfrominsta/bfi6.webp';
+import bfi7 from './Images/buttfrominsta/bfi7.webp';
+import bfi8 from './Images/buttfrominsta/bfi8.webp';
+
 import bannerI1 from './Images/bannerI1.webp'
 import { Footer } from "../Footer/footer";
 
@@ -61,6 +66,27 @@ function LandingPage() {
 
             </div>
         </div>
+        <div id="buttFromInstagram">
+            <h2>Truck Art Exclusively for Pakistan</h2>
+            <div className="buttFromInstagramImagContainer">
+                <div className="alignBFI" >
+                    <img src={bfi6} className="bFICRound"></img>
+                </div>
+                <div className="alignBFI" >
+                    <img src={bfi7} className="bFICRound"></img>
+                </div>
+                <div className="alignBFI" >
+                    <img src={bfi5} className="bFICRound"></img>
+                </div>
+                <div className="alignBFI" >
+                    <img src={bfi8} className="bFICRound"></img>
+                </div>
+
+            </div>
+        </div>
+
+
+
         <div id="bannerShowCase">
             <a href="" className="bannerI1Link"><img src={bannerI1} className="fullsizeB"></img>
         <div className="ImageOverText">
